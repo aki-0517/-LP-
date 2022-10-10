@@ -1,0 +1,382 @@
+main {
+  background-image: url("./img/background_sp.svg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin-top: 300px;
+
+}
+
+.BeEn_logo {
+  width: 200px;
+  position: fixed;
+  top: 20px;
+  margin-left: 48px;
+  z-index: 9999;
+}
+
+.blue {
+  position: absolute;
+  right: calc(6 * 48px + 6 * ((100vw - 9 * 48px) / 8));
+  top: -48px;
+  z-index: 4;
+}
+
+.top_first {
+  padding-top: 10rem;
+  font-size: 30px;
+  letter-spacing: 6px;
+  color: #ffffff;
+  z-index: 3;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: 800;
+}
+
+.green_button {
+  position: fixed;
+  top: 12px;
+  right: 16px;
+  z-index: 100000;
+  background-color: #7eee3e;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: -8px 9px 0px #000;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.blue_button {
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  color: #fff;
+  z-index: 100000;
+  background-color: #1264af;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: -8px 9px 0px #000;
+}
+
+.top_second {
+  position: relative;
+  text-align: left;
+  font-size: 64px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 2.5rem;
+  font-family: Noto Sans JP;
+  font-weight: 900;
+  z-index: 4;
+  margin: 0;
+}
+
+.top_third {
+  position: relative;
+  color: #ffffff;
+  z-index: 4;
+  margin: 0;
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 0.64);
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  width: calc(100% - 96px);
+  height: calc(100vh - 96px);
+  z-index: 3;
+}
+
+.back_image {
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  object-fit: cover;
+  width: calc(100% - 96px);
+  height: calc(100vh - 96px);
+  z-index: 2;
+}
+
+.top_header {
+  position: relative;
+  margin-left: calc(48px * 2 + (100vw - 9 * 48px)/ 8);
+  z-index: 4;
+}
+
+
+.boy_img {
+  margin-left: calc(48px + ((100vw - 9 * 48px) / 8));
+  width: calc(5 * 48px + 3 * ((100vw - 9 * 48px) / 8));
+}
+
+.first_box_p {
+  margin-left: calc(5 * 48px + 4 * ((100vw - 9 * 48px) / 8));
+  font-size: 16px;
+  line-height: 1.8rem;
+  position: relative;
+  top: -300px;
+}
+
+.first_box_p1 {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.first_box_p2 {
+  margin-right: calc(48px + 2 * ((100vw - 9 * 48px) / 8));
+}
+
+.six_days {
+  margin-left: calc(96px + 2 * ((100vw - 9 * 48px) / 8));
+}
+
+.button_text_first,
+.button_text_second,
+.blue_text_first,
+.blue_text_second,
+.big-button-text {
+  margin: 0;
+}
+
+
+.topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.mini_blue {
+  height: 72.27px;
+}
+
+.number {
+  width: calc((100vw - 9 * 48px) / 8);
+}
+
+.one {
+  margin-right: 48px;
+}
+
+.two {
+  margin-left: 48px;
+}
+
+.section2 {
+  padding-left: 48px;
+}
+
+.section2-body {
+  display: flex;
+  margin-top: 200px;
+}
+
+.body-text {
+  width: calc(2 * 48px + 3 * ((100vw - 9 * 48px) / 8));
+}
+
+.body-text>h1 {
+  font-size: 28px;
+}
+
+.body-text>h2 {
+  font-size: 20px;
+}
+
+.teachers {
+  margin-left: 48px;
+  height: 400px;
+}
+
+.green2>h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.big-button {
+  display: flex;
+  background-color: #7eee3e;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: -8px 9px 0px #000;
+  width: calc(3 * 48px + 4 * ((100vw - 9 * 48px) / 8));
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section3 {
+  background-color: #000;
+  padding-bottom: 500px;
+  margin-top: 500px;
+  position: relative;
+}
+
+.top-white-para {
+  position: absolute;
+  top: -400px;
+  right: calc(6 * 48px + 6 * ((100vw - 9 * 48px) / 8));
+}
+
+.top-black-para {
+  position: absolute;
+  top: -200px;
+  left: calc(6 * 48px + 6 * ((100vw - 9 * 48px) / 8));
+}
+
+.bottom-white-para {
+  position: absolute;
+  top: 2900px;
+  left: calc(6 * 48px + 6 * ((100vw - 9 * 48px) / 8));
+}
+
+.bottom-black-para {
+  position: absolute;
+  top: 2800px;
+  right: calc(6 * 48px + 6 * ((100vw - 9 * 48px) / 8));
+}
+
+.topic-green {
+  color: #7eee3e;
+  padding-top: 160px;
+}
+
+.sec-3-img {
+  width: calc(48px + 2 * ((100vw - 9 * 48px) / 8));
+  margin-left: calc(3 * 48px + 2 * ((100vw - 9 * 48px) / 8));
+}
+
+.sec-3-cont {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.sec-3-text {
+  margin-left: 48px;
+  width: calc(2 * 48px + 3 * ((100vw - 9 * 48px) / 8));
+}
+
+.sec-3-text>h1 {
+  color: #7eee3e;
+  font-size: 30px;
+}
+
+.sec-3-text>p {
+  color: #fff;
+}
+
+.sec-3-text2 {
+  margin-left: calc(2 * 48px + ((100vw - 9 * 48px) / 8));
+}
+
+.sec-3-img2 {
+  width: calc(2 * 48px + 3 * ((100vw - 9 * 48px) / 8));
+  height: auto;
+  margin-left: 48px;
+}
+
+.sec-3-img3 {
+  margin-right: 48px;
+  width: calc(2 * 48px + 3 * ((100vw - 9 * 48px) / 8));
+  object-fit: contain;
+  margin-left: calc(48px + ((100vw - 9 * 48px) / 8));
+}
+
+.green3>h1 {
+  color: #fff;
+}
+
+.big-button2 {
+  box-shadow: -8px 9px 0px #fff;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.para-images {
+  display: flex;
+  margin-bottom: 400px;
+  position: relative;
+  margin-bottom: 800px;
+}
+
+.para-1 {
+  position: absolute;
+  width: 25%;
+  left: calc(48px + ((100vw - 9 * 48px) / 8));
+}
+
+.para-2 {
+  position: absolute;
+  width: 25%;
+  left: calc(3 * 48px + 3*((100vw - 9 * 48px) / 8));
+  top: 100px;
+}
+
+.para-3 {
+  position: absolute;
+  width: 25%;
+  left: calc(5 * 48px + 5*((100vw - 9 * 48px) / 8));
+  top: 200px;
+}
+
+.company1 {
+  display: flex;
+}
+
+.demia {
+  margin-left: calc(3 * 48px + 2 * ((100vw - 9 * 48px) / 8));
+}
+
+.explanation {
+  margin-right: calc(2 * 48px + ((100vw - 9 * 48px) / 8));
+  margin-left: 48px;
+}
+
+.wao {
+  margin-left: calc(3 * 48px + ((100vw - 9 * 48px) / 8));
+}
+
+footer {
+  margin-top: 200px;
+  height: 200px;
+  background-color: #000;
+}
+
+.be-en {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  width: calc((100vw - 9 * 48px) / 5);
+}
+
+.child>p {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.child {
+  display: flex;
+  margin-left: 30%;
+}
